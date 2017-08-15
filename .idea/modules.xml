@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fx-application.iml" filepath="$PROJECT_DIR$/.idea/modules/fx-application.iml" group="fx-application" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fx-application/fx-application_main.iml" filepath="$PROJECT_DIR$/.idea/modules/fx-application/fx-application_main.iml" group="fx-application" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fx-application/fx-application_test.iml" filepath="$PROJECT_DIR$/.idea/modules/fx-application/fx-application_test.iml" group="fx-application" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guillou-quisquater.iml" filepath="$PROJECT_DIR$/.idea/modules/guillou-quisquater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/guillou-quisquater-protocol-protocol_main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/guillou-quisquater-protocol-protocol_main.iml" group="protocol" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/guillou-quisquater-protocol-protocol_test.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/guillou-quisquater-protocol-protocol_test.iml" group="protocol" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol.iml" group="protocol" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fx-application_main" target="1.8" />
+      <module name="fx-application_test" target="1.8" />
+      <module name="guillou-quisquater-protocol-protocol_main" target="1.8" />
+      <module name="guillou-quisquater-protocol-protocol_test" target="1.8" />
+      <module name="guillou-quisquater_main" target="1.8" />
+      <module name="guillou-quisquater_test" target="1.8" />
+      <module name="GuillouQuisquaterProtocol-protocol_main" target="1.8" />
+      <module name="GuillouQuisquaterProtocol-protocol_test" target="1.8" />
+      <module name="protocol_main" target="1.8" />
+      <module name="protocol_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

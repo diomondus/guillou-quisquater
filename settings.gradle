@@ -1,0 +1,4 @@
+rootProject.name = 'guillou-quisquater'
+include 'fx-application'
+include 'protocol'
+

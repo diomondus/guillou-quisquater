@@ -1,0 +1,28 @@
+group 'guillou-quisquater'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://artifacts.alfresco.com/nexus/content/repositories/public/'
+    }
+    maven {
+        url 'https://repo.spring.io/libs-milestone'
+    }
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-core', version: '5.0.0.M5'
+    compile group: 'org.springframework', name: 'spring-context', version: '5.0.0.M5'
+    compile group: 'org.springframework', name: 'spring-aop', version: '5.0.0.M5'
+    // https://mvnrepository.com/artifact/org.jfxtras/jfxtras-labs
+    compile group: 'org.jfxtras', name: 'jfxtras-labs', version: '8.0-r5'
+
+    compile project(':protocol')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

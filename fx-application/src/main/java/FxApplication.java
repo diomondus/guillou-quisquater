@@ -1,28 +1,23 @@
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * Author n.melnikov
- * Creation date 03.05.2017
+ * Created by Dmitry Butilov
+ * on 17.08.17.
  */
-public class FxApplication
-        extends Application
-{
-  protected ConfigurableApplicationContext context;
+public class FxApplication extends Application {
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("MainScene.fxml"));
+        primaryStage.setTitle("Hello World");
+        primaryStage.setScene(new Scene(root, 700, 575));
+        primaryStage.show();
+    }
 
-  @Autowired
-  private Scene mainScene;
-
-  @Override
-  public void start(Stage primaryStage)
-          throws Exception
-  {
-    primaryStage.setTitle("Guillou-Quisquater Protocol");
-    primaryStage.setScene(mainScene);
-    primaryStage.show();
-  }
+    public static void main(String[] args) {
+        launch(args);
+    }
 }

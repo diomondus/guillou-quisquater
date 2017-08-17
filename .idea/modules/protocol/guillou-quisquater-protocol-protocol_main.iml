@@ -4,10 +4,11 @@
     <output url="file://$MODULE_DIR$/../../../protocol/out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../protocol/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../../protocol/src/main/java" isTestSource="false" /> 
+      <sourceFolder url="file://$MODULE_DIR$/../../../protocol/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../protocol/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.16.16" level="project" />
   </component>
 </module>

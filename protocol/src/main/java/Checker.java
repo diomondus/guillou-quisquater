@@ -1,6 +1,6 @@
 import cryptography.Utils;
-import card.CardGS;
-import keys.PublicKeyGS;
+import card.CardGQ;
+import keys.PublicKeyGQ;
 
 import java.math.BigInteger;
 
@@ -12,19 +12,19 @@ import static java.math.BigInteger.*;
  */
 public class Checker {
 
-    public boolean check(CardGS cardGS) {
+    public boolean check(CardGQ cardGQ) {
 
-        PublicKeyGS publicKey = (PublicKeyGS) cardGS.getPublicKey();
+        PublicKeyGQ publicKey = (PublicKeyGQ) cardGQ.getPublicKey();
 
         // Сторона А, 1 шаг проверки
-        BigInteger a = cardGS.firstCheckerRequest();
+        BigInteger a = cardGQ.firstCheckerRequest();
 
         // Сторона B, 2 шаг проверки
         // выбирает случайное целое c, находящееся в диапазоне от 1 до e - 1
         BigInteger c = Utils.getRandomBefore(publicKey.getE().subtract(ONE));
 
         // Сторона А, 3 шаг проверки
-        BigInteger z = cardGS.secondCheckerRequest(c);
+        BigInteger z = cardGQ.secondCheckerRequest(c);
 
         // Сторона B, 4 шаг проверки
         // проверяет: если z^e=ay^c (mod n), то подлинность доказана.

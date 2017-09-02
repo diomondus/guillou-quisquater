@@ -1,8 +1,8 @@
 package card;
 
 import cryptography.*;
-import keys.PrivateKeyGS;
-import keys.PublicKeyGS;
+import keys.PrivateKeyGQ;
+import keys.PublicKeyGQ;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;
@@ -15,13 +15,13 @@ import static java.math.BigInteger.ZERO;
  * Created by Dmitry Butilov
  * on 02.09.17.
  */
-public class CardGS extends AbstractCard {
+public class CardGQ extends AbstractCard {
 
     private final static Random RANDOM = new SecureRandom();
 
     private BigInteger r = ZERO;
 
-    public CardGS(String aOwnerInfo, int N) {
+    public CardGQ(String aOwnerInfo, int N) {
         // вычисляем n
         BigInteger p = BigInteger.probablePrime(N >> 2, RANDOM);
         BigInteger q = BigInteger.probablePrime(N >> 2, RANDOM);
@@ -47,8 +47,8 @@ public class CardGS extends AbstractCard {
         BigInteger y = x.modPow(e, n);
 
         // иницииализируем обязательные поля карты
-        publicKey = new PublicKeyGS(n, e, y);
-        privateKey = new PrivateKeyGS(x);
+        publicKey = new PublicKeyGQ(n, e, y);
+        privateKey = new PrivateKeyGQ(x);
         ownerInfo = aOwnerInfo;
     }
 

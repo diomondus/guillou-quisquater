@@ -6,9 +6,9 @@ import java.math.BigInteger;
  * Created by Dmitry Butilov
  * on 02.09.17.
  */
-public class PrivateKeyGS extends PrivateKey {
+public class PrivateKeyGQ extends PrivateKey {
 
-    public PrivateKeyGS(BigInteger x) {
+    public PrivateKeyGQ(BigInteger x) {
         super(x);
     }
 }

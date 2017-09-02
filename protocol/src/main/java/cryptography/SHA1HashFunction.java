@@ -1,4 +1,4 @@
-package CryptographyUtills;
+package cryptography;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

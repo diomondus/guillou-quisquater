@@ -1,6 +1,6 @@
 package card;
 
-import CryptographyUtills.*;
+import cryptography.*;
 import keys.PrivateKeyGS;
 import keys.PublicKeyGS;
 

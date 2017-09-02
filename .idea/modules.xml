@@ -6,9 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fx-application/fx-application_main.iml" filepath="$PROJECT_DIR$/.idea/modules/fx-application/fx-application_main.iml" group="fx-application" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fx-application/fx-application_test.iml" filepath="$PROJECT_DIR$/.idea/modules/fx-application/fx-application_test.iml" group="fx-application" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/guillou-quisquater.iml" filepath="$PROJECT_DIR$/.idea/modules/guillou-quisquater.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/guillou-quisquater-protocol-protocol_main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/guillou-quisquater-protocol-protocol_main.iml" group="protocol" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/guillou-quisquater-protocol-protocol_test.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/guillou-quisquater-protocol-protocol_test.iml" group="protocol" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol.iml" group="protocol" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/protocol_main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/protocol_main.iml" group="protocol" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/protocol_test.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/protocol_test.iml" group="protocol" />
     </modules>
   </component>
 </project>

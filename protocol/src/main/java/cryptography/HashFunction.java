@@ -1,4 +1,4 @@
-package CryptographyUtills;
+package cryptography;
 
 /**
  * Created by Dmitry Butilov

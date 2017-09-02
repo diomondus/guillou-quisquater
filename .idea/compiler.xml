@@ -7,8 +7,6 @@
     <bytecodeTargetLevel>
       <module name="fx-application_main" target="1.8" />
       <module name="fx-application_test" target="1.8" />
-      <module name="guillou-quisquater_main" target="1.8" />
-      <module name="guillou-quisquater_test" target="1.8" />
       <module name="protocol_main" target="1.8" />
       <module name="protocol_test" target="1.8" />
     </bytecodeTargetLevel>

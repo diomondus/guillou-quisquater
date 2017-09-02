@@ -18,7 +18,7 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.0.0.M5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.0.0.M5" level="project" />
     <orderEntry type="library" name="Gradle: org.jfxtras:jfxtras-labs:8.0-r5" level="project" />
-    <orderEntry type="module" module-name="guillou-quisquater-protocol-protocol_main" />
+    <orderEntry type="module" module-name="protocol_main" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.0.0.M5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.0.0.M5" level="project" />
